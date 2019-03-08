@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/tvAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="TextView"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="617dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="235dp"
+            android:layout_marginStart="235dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="117dp" android:layout_marginRight="117dp"/>
+
+    <TextView
+            android:id="@+id/tvArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="177dp" tools:layout_editor_absoluteY="27dp"/>
+</android.support.constraint.ConstraintLayout>
